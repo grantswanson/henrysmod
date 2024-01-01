@@ -1,7 +1,7 @@
-package com.swan.testmod;
+package com.swan.henrymod;
 
 import com.mojang.logging.LogUtils;
-import com.swan.testmod.item.ModItems;
+import com.swan.henrymod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,12 +13,12 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(TestMod.MOD_ID)
-public class TestMod
+@Mod(HenryMod.MOD_ID)
+public class HenryMod
 {
-    public static final String MOD_ID = "testmod";
+    public static final String MOD_ID = "henrymod";
     private static final Logger LOGGER = LogUtils.getLogger();
-    public TestMod()
+    public HenryMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
