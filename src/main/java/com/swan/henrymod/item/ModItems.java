@@ -15,6 +15,9 @@ public class ModItems {
     public static final RegistryObject<Item> ACORN = ITEMS.register("acorn",
             () -> new Item(new Item.Properties().food(Foods.ACORN)));
 
+    public static final RegistryObject<Item> ROOTS_ITEM = ITEMS.register("roots_item",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
